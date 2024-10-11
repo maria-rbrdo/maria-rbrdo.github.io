@@ -1,0 +1,268 @@
+/* Style */
+
+html{
+  font-size: 17px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Aleo, sans-serif;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+body{
+  font-weight: 350;
+  line-height: 1.5;
+}
+
+a {color: black}
+a:hover {text-decoration: underline; color:#5A8859 !important;}
+
+.tab{padding-left:0.75rem;}
+
+.listtext{
+  padding: 0rem 1rem;
+}
+
+p {
+  padding: 0.5rem 0;
+}
+
+/* Container */
+
+div.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/* Side */
+
+@media only screen and (max-width:950px) {
+    header {
+      width: 100%;
+      margin-right: 1rem;
+      padding: 2rem;
+      font-size: 90%;
+      background-color: #F9EBDC;
+  }
+}
+
+@media only screen and (min-width:950px) {
+  header {
+    height: 100%;
+    width: 21rem;
+    margin-right: 1rem;
+    padding: 5rem 2rem 5rem 2rem;
+    font-size: 90%;
+    display: inline-block;
+    position: fixed;
+    overflow: scroll;
+    bottom: 0;
+    left: 0;
+    background-color: #F9EBDC;
+  }
+}
+
+header a {
+  text-decoration: none;
+}
+
+header p {
+  width: 16rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.links a {
+  color: gray;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+nav {
+  width: 100%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  border-radius: 1rem;
+}
+
+nav a {
+  padding: 1rem;
+  display: block;
+  font-weight: bold;
+}
+
+nav a.top {
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+}
+
+nav a.bottom {
+  border-bottom-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: black !important;
+  background-color: #F6E1CB !important;
+}
+
+nav a.active {
+  background-color: #F3D7BA !important;
+}
+
+nav ul {
+  width: 100%;
+  list-style-type: none;
+}
+
+
+/* Body */
+
+.mright {
+  text-align: right;
+}
+
+.mcenter {
+  text-align: center;
+}
+
+.sc {
+  font-variant: small-caps;
+}
+
+.dsc {
+  font-size: 75%;
+}
+
+@media only screen and (max-width:950px) {
+  .mainbody {
+    width: 100%;
+    padding: 4rem;
+    font-size: 100%;
+    background-color: #FCF5EE;
+  }
+}
+
+@media only screen and (min-width:950px) {
+  .mainbody {
+    height: 100%;
+    padding: 4rem;
+    font-size: 100%;
+    display: inline-block;
+    position: fixed;
+    overflow: scroll;
+    left: 21rem;
+    bottom: 0;
+    right: 0;
+    background-color: #FCF5EE;
+  }
+}
+
+.projgrid {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+}
+
+.proj {
+  padding: 0.2rem;
+  border: 0.1rem solid #1c1c1c;
+  border-radius: 10px;
+  transition-property: all;
+  transition-duration: 250ms;
+}
+
+.proj:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px #1c1c1c;
+}
+
+.proj hr {
+  margin: auto;
+  width: 95%;
+  border-top: 0.1rem dotted #1c1c1c;
+}
+
+.projhead {
+  padding: 0.5rem;
+  color: #FCF5EE;
+  background-color: #1c1c1c;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.projtitle {
+  text-align: center;
+  min-height: 7.5rem;
+  padding: 1rem;
+  border: 0.1rem solid black;
+  background-position: left center;
+  background-size: cover;
+}
+
+.projtitle h3{
+    text-shadow:
+    -1.5px -1.5px 0 #FCF5EE,
+     0   -1.5px 0 #FCF5EE,
+     1.5px -1.5px 0 #FCF5EE,
+     1.5px  0   0 #FCF5EE,
+     1.5px  1.5px 0 #FCF5EE,
+     0    1.5px 0 #FCF5EE,
+    -1.5px  1.5px 0 #FCF5EE,
+    -1.5px  0   0 #FCF5EE;
+}
+
+.projbody {
+  padding: 0.75rem 1rem;
+}
+
+.projlinks ul {
+  width: 100%;
+  list-style-type: none;
+}
+
+.projlinks a {
+  padding: 0.75rem 1rem;
+  display: block;
+}
+
+.projlinks a:hover {
+  color: black !important;
+  background-color: #F6E1CB !important;
+}
+
+.projlinks a.bottom {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.rightsideimage {
+  float: right;
+  height: auto;
+  width: 15rem;
+  margin: 0px 0px 15px 20px;
+  padding: 1rem;
+}
+
+.leftsideimage {
+  float: left;
+  height: auto;
+  width: 15rem;
+  margin: 0px 0px 15px 20px;
+  padding: 1rem;
+}
+
+.centerimage {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 15rem;
+  padding: 1rem;
+}
