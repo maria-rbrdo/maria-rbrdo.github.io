@@ -100,7 +100,7 @@ header p {
 nav {
   width: 100%;
   border-style: solid;
-  border-width: 0.1rem;
+  border-width: 0.12rem;
   border-color: black;
   border-radius: 1rem;
 }
@@ -265,9 +265,9 @@ nav ul {
 .rightsideimage {
   float: right;
   height: auto;
-  width: 15rem;
+  width: 12rem;
   margin: 0px 0px 15px 20px;
-  padding: 1rem;
+  margin: 0 2rem;
 }
 
 .leftsideimage {
@@ -283,5 +283,15 @@ nav ul {
   margin: 0 auto;
   height: 15rem;
   width: auto;
+  padding: 1rem;
+}
+
+.borderimage{
+  border-style: solid;
+  border-color: #1c1c1c;
+  border-width: 0.12rem;
+}
+
+.talk {
   padding: 1rem;
 }
