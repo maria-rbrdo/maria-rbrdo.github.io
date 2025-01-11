@@ -55,7 +55,7 @@ div.container {
 
 /* Side */
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1100px) {
     header {
       width: 100%;
       margin-right: 1rem;
@@ -65,7 +65,7 @@ div.container {
   }
 }
 
-@media only screen and (min-width:950px) {
+@media only screen and (min-width:1100px) {
   header {
     height: 100%;
     width: 21rem;
@@ -155,7 +155,7 @@ nav ul {
   font-size: 75%;
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:1100px) {
   .mainbody {
     width: 100%;
     padding: 4rem;
@@ -164,7 +164,7 @@ nav ul {
   }
 }
 
-@media only screen and (min-width:950px) {
+@media only screen and (min-width:1100px) {
   .mainbody {
     height: 100%;
     padding: 4rem;
