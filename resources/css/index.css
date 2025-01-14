@@ -1,7 +1,13 @@
 /* Style */
-
-html{
-  font-size: 17px;
+@media only screen and (min-width:750px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width:750px) {
+  html {
+    font-size: 15px;
+  }
 }
 
 * {
@@ -262,21 +268,41 @@ nav ul {
   border-radius: 50%;
 }
 
-.rightsideimage {
-  float: right;
-  height: auto;
-  width: 15rem;
-  margin: 0px 0px 15px 20px;
-  margin: 0 2rem;
+@media only screen and (min-width:750px) {
+  .rightsideimage {
+    float: right;
+    height: auto;
+    width: 15rem;
+    margin: 0px 0px 15px 20px;
+    margin: 0 2rem;
+  }
+
+  .leftsideimage {
+    float: left;
+    height: 15rem;
+    width: auto;
+    margin: 0px 0px 15px 20px;
+    padding: 1rem;
+  }
 }
 
-.leftsideimage {
-  float: left;
-  height: 15rem;
-  width: auto;
-  margin: 0px 0px 15px 20px;
-  padding: 1rem;
+@media only screen and (max-width:750px) {
+  .rightsideimage {
+    display: inline-block;
+    margin: 0 auto;
+    height: 15rem;
+    width: auto;
+    margin: 1rem;
+  }
+  .leftsideimage {
+    display: inline-block;
+    margin: 0 auto;
+    height: 15rem;
+    width: auto;
+    margin: 1rem;
+  }
 }
+
 
 .centerimage {
   display: inline-block;
