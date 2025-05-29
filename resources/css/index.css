@@ -284,16 +284,14 @@ nav ul {
     float: right;
     height: auto;
     width: 15rem;
-    margin: 0px 0px 15px 20px;
-    margin: 0 2rem;
+    margin: 0 0 1rem 2rem;
   }
 
   .leftsideimage {
     float: left;
     height: 15rem;
     width: auto;
-    margin: 0px 0px 15px 20px;
-    padding: 1rem;
+    margin: 2rem;
   }
 }
 
